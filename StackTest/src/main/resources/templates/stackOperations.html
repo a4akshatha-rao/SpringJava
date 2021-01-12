@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Stack Operations</h1>
+<form th:action="@{/stack}">
+    <input type="submit" value="View Stack" />
+</form>
+<br/>
+<form action="#" th:action="@{/push}" method="post">
+    <p>Number to push: <input type="text" th:name="num" /></p>
+    <input type="submit" value="Push to Stack" />
+</form>
+<br/>
+<form th:action="@{/top}">
+    <input type="submit" value="Peek Stack" />
+</form>
+<br/>
+<form th:action="@{/pop}" method="post">
+    <input type="submit" value="Pop Stack" />
+</form>
+</body>
+</html>

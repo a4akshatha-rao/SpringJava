@@ -1,0 +1,17 @@
+Dependecnies:
+Java 8
+Maven
+Junit
+
+Instructions To Run:
+
+1. Extract the content of the zip file StackTest.zip
+2. Navigate to the folder StackTest
+3. Run the command: java -jar target/StackTest-1.0-SNAPSHOT.jar
+4. Open a browser and navigate to http://localhost:8080/
+5. Follow the UI on the screen.
+6. If not specified or running via postman/curl, the default stack size is 5.
+
+To Run Tests:
+1. Navigate to the folder StackTest
+2. Run the command: mvn clean test

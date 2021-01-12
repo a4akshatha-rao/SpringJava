@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head><title>Home Page</title></head>
+<body>
+<h1>Set Stack Size</h1>
+<form action="#" th:action="@{/setStackSize}" method="post">
+    <p>Stack Size: <input type="text" th:name="capacity" /></p>
+    <p><input type="submit" value="Submit" /></p>
+</form>
+</body>
+</html>
